@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar = ({style}) => {
-  return(
+  return (
     <div>
       <h1 className={`${style}-nav-title`}>
         Rich Bennett

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Bio = () => {
-  return(
+  return (
     <div className="bio-card">
       <div className="bio-pic">
         <img src="" alt="Rich Bennett" />
