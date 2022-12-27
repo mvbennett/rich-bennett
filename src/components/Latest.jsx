@@ -1,7 +1,7 @@
 import React from "react";
 
 const Latest = () => {
-  return(
+  return (
     // latest project will go here
     <div></div>
   );

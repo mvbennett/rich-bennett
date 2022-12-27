@@ -1,22 +1,22 @@
 import React from "react";
 
-const Navbar = ({style}) => {
+const Navbar = ({ page }) => {
   return (
     <div>
-      <h1 className={`${style}-nav-title`}>
+      <h1 className={`${page}-nav-title`}>
         Rich Bennett
       </h1>
-      <ul className={`${style}-navbar`}>
-        <li className={`${style}-nav-link`}>
+      <ul className={`${page}-navbar`}>
+        <li className={`${page}-nav-link`}>
           Composition
         </li>
-        <li className={`${style}-nav-link`}>
+        <li className={`${page}-nav-link`}>
           Production
         </li>
-        <li className={`${style}-nav-link`}>
+        <li className={`${page}-nav-link`}>
           Mixing
         </li>
-        <li className={`${style}-nav-link`}>
+        <li className={`${page}-nav-link`}>
           Guitar
         </li>
       </ul>
