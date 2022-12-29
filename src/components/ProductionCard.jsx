@@ -9,7 +9,9 @@ const ProductionCard = (
     <div>
       <img src={img} alt={title} className="album-cover" />
       <a href={link}>
-        {title}
+        <h3>
+          {title}
+        </h3>
       </a>
       <div className="production-icons">
         {icons.forEach((icon) => {
