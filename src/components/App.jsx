@@ -2,7 +2,8 @@ import React from "react";
 import Latest from "./Latest";
 import Navbar from "./Navbar";
 
-const App = () => {
+const App = ({ page }) => {
+  console.log(page);
   return (
     <div>
       <Navbar page="home" />

@@ -2,10 +2,11 @@ import '../assets/stylesheets/application.scss';
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import {
-  BrowserRouter as Router, Route, Redirect, Switch
+  BrowserRouter as Router, Route, Navigate, Routes
 } from 'react-router-dom';
-import { createHistory as history } from 'history';
+import { createBrowserHistory as history } from 'history';
 import App from './components/App';
+import Projects from './components/Projects';
 
 const container = document.getElementById('root');
 if (container) {
@@ -13,10 +14,10 @@ if (container) {
   // root.render(<App />);
   root.render(
     <Router history={history}>
-      <Switch>
-        <Route path="/" component={App} />
-        <Redirect from="/" to="/" />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </Router>
   );
 }

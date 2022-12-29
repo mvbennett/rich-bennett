@@ -2,9 +2,14 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
+  const project = {
+    img: '',
+    title: 'Music for Underwater Supermarkets',
+    link: '#'
+  };
   return (
     <div>
-      <ProjectCard />
+      <ProjectCard project={project} />
     </div>
   );
 };
