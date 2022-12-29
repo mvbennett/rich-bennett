@@ -1,0 +1,17 @@
+.home-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-nav-link {
+  list-style: none;
+}
+
+.home-nav-links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  width: 100%;
+}

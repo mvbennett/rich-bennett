@@ -2,11 +2,11 @@ import React from "react";
 
 const Navbar = ({ page }) => {
   return (
-    <div>
+    <div className={`${page}-navbar`}>
       <h1 className={`${page}-nav-title`}>
         Rich Bennett
       </h1>
-      <ul className={`${page}-navbar`}>
+      <ul className={`${page}-nav-links`}>
         <li className={`${page}-nav-link`}>
           Composition
         </li>
