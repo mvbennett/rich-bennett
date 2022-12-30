@@ -14,9 +14,9 @@ const ProductionCard = (
         </h3>
       </a>
       <div className="production-icons">
-        {/* {icons.forEach((icon) => {
+        {icons === undefined ? <div /> : icons.forEach((icon) => {
           <img src={icon.img} alt={icon.name} />;
-        })} */}
+        })}
       </div>
     </div>
   );
