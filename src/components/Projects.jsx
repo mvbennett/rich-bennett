@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import Navbar from "./Navbar";
 
 const Projects = () => {
   const project = {
@@ -9,7 +10,11 @@ const Projects = () => {
   };
   return (
     <div>
-      <ProjectCard project={project} />
+      <Navbar page="side" />
+      <div className="projects container">
+        <h2>Projects</h2>
+        <ProjectCard project={project} />
+      </div>
     </div>
   );
 };
