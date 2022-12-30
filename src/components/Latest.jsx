@@ -3,9 +3,11 @@ import Navbar from "./Navbar";
 
 const Latest = () => {
   return (
-    <div className="container">
+    <div>
       <Navbar page="home" />
-      <img src="" alt="Underwater Supermarkets on Vinyl" />
+      <div className="container">
+        <img src="" alt="Underwater Supermarkets on Vinyl" />
+      </div>
     </div>
   );
 };
