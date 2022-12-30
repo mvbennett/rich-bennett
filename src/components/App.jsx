@@ -13,8 +13,8 @@ const App = ({ page }) => {
     <Router history={history}>
       <Routes>
         <Route path="/" element={<Latest />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/productions" element={<Productions />} />
+        <Route path="/projects" element={<Projects />} exact />
+        <Route path="/productions" element={<Productions />} exact />
       </Routes>
     </Router>
   );
