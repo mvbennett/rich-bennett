@@ -8,22 +8,22 @@ const Navbar = ({ page }) => {
         Rich Bennett
       </h1>
       <ul className={`${page}-nav-links`}>
-        <li className={`${page}-nav-link`}>
+        <li className="nav-link">
           <Link to="/projects" relative="path">
             Composition
           </Link>
         </li>
-        <li className={`${page}-nav-link`}>
+        <li className="nav-link">
           <Link to="/productions" relative="path">
             Production
           </Link>
         </li>
-        <li className={`${page}-nav-link`}>
+        <li className="nav-link">
           <Link to="/productions" relative="path">
             Mixing
           </Link>
         </li>
-        <li className={`${page}-nav-link`}>
+        <li className="nav-link">
           <Link to="/projects" relative="path">
             Guitar
           </Link>

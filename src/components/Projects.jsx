@@ -10,7 +10,7 @@ const Projects = () => {
   };
   return (
     <div>
-      <Navbar page="side" />
+      <Navbar page="secondary" />
       <div className="projects container">
         <h2>Projects</h2>
         <ProjectCard project={project} />

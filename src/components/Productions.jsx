@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Productions = () => {
   return (
     <div>
-      <Navbar page="side" />
+      <Navbar page="secondary" />
       <div className="productions container">
         <h2>Productions</h2>
         <ProductionCard />
