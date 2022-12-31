@@ -9,14 +9,20 @@ const Productions = () => {
       artist: 'Hologram Teen',
       img: '../assets/images/between_the_funk.jpg',
       link: '',
-      icons: []
+      icons: [
+        '../assets/icons/produce.png'
+      ]
     },
     {
       title: 'Pink Sand',
       artist: 'Limoncello',
       img: '../assets/images/pink_sand.jpg',
       link: '',
-      icons: []
+      icons: [
+        '../assets/icons/compose.png',
+        '../assets/icons/produce.png',
+        '../assets/icons/guitar.png'
+      ]
     }
   ];
   const productions = productionList.map((production) => {

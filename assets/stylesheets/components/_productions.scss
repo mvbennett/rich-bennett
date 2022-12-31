@@ -1,0 +1,20 @@
+.production-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.album-cover {
+  height: 300px;
+  width: 300px;
+}
+
+.production-icons {
+  display: flex;
+}
+
+.production-icons > img {
+  height: 32px;
+  width: 32px;
+}
