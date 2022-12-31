@@ -13,6 +13,11 @@ const Projects = () => {
       img: '../assets/images/spacetronic_lunchbox.jpg',
       title: 'Spacetronic Lunchbox',
       link: '#'
+    },
+    {
+      img: '../assets/images/italian_soda.jpg',
+      title: 'Italian Soda',
+      link: '#'
     }
   ];
   const projects = projectsList.map((project) => {

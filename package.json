@@ -35,12 +35,14 @@
     "react-dom": "^18.1.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.6.1",
-    "redux": "^4.2.0"
+    "redux": "^4.2.0",
+    "workspace": "^0.0.1-preview.1"
   },
   "scripts": {
     "start": "webpack-cli serve --mode development",
     "lint": "eslint './src/**/*.js*'",
     "create-gh-pages": "git branch gh-pages -f && git push origin gh-pages -f && gh-pages -d dist && gh repo view -w",
-    "deploy": "webpack && yarn create-gh-pages"
+    "deploy": "webpack && yarn create-gh-pages",
+    "build:website": "yarn workspace website build"
   }
 }
