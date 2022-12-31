@@ -10,8 +10,15 @@
   width: 300px;
 }
 
+.production-title {
+  margin: 0;
+}
+
 .production-icons {
   display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 8px;
 }
 
 .production-icons > img {

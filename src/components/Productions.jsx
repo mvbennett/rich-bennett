@@ -2,6 +2,21 @@ import React from "react";
 import ProductionCard from "./ProductionCard";
 import Navbar from "./Navbar";
 
+const ICONS = {
+  compose: {
+    img: '../assets/icons/compose.png',
+    name: 'Composer'
+  },
+  produce: {
+    img: '../assets/icons/produce.png',
+    name: 'Producer'
+  },
+  guitar: {
+    img: '../assets/icons/guitar.png',
+    name: 'Musician'
+  }
+};
+
 const Productions = () => {
   const productionList = [
     {
@@ -10,7 +25,7 @@ const Productions = () => {
       img: '../assets/images/between_the_funk.jpg',
       link: '',
       icons: [
-        '../assets/icons/produce.png'
+        ICONS.produce
       ]
     },
     {
@@ -19,9 +34,9 @@ const Productions = () => {
       img: '../assets/images/pink_sand.jpg',
       link: '',
       icons: [
-        '../assets/icons/compose.png',
-        '../assets/icons/produce.png',
-        '../assets/icons/guitar.png'
+        ICONS.compose,
+        ICONS.produce,
+        ICONS.guitar
       ]
     }
   ];
