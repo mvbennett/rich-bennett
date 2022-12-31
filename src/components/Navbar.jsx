@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ page }) => {
   return (
     <div className={`${page}-navbar`}>
-      <h1 className={`${page}-nav-title`}>
+      <h1 className={`${page}-nav-title nav-title`}>
         Rich Bennett
       </h1>
       <ul className={`${page}-nav-links`}>

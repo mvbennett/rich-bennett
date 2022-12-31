@@ -1,9 +1,10 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import './components/navbar.scss';
+@import './config/fonts';
 
 
 body {
-  font-family: Helvetica;
+  font-family: $body-font;
   background-color: #F0F9FD;
 }
 

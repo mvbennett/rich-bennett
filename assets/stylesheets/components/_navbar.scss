@@ -8,17 +8,29 @@
 
 .nav-link {
   list-style: none;
+  font-weight: 600;
+}
+
+.nav-link > a {
+  color: black;
 }
 
 .home-nav-links {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding-left: 0;
   gap: 16px;
 }
 
+.nav-title {
+  font-family: "Montserrat", "Open Sans", "Helvetica", "Arial", "sans-serif";
+  margin: 0;
+}
+
 .home-nav-title {
   text-align: center;
+  margin: 16px 0;
 }
 
 .secondary-navbar {
@@ -27,11 +39,15 @@
   align-items: center;
   width: 100%;
   padding: 0 16px;
+  margin: 16px 0;
 }
 
 .secondary-nav-links {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   padding-left: 0;
   gap: 16px;
+  height: 100%;
+  margin: 0;
 }
