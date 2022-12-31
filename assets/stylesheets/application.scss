@@ -1,7 +1,11 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+// Configuration Partials
+@import './config/fonts';
+
+// Component Partials
 @import './components/navbar';
 @import './components/latest';
-@import './config/fonts';
 
 
 body {
