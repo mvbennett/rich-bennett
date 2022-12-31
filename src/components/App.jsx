@@ -7,8 +7,7 @@ import Latest from "./Latest";
 import Projects from './Projects';
 import Productions from "./Productions";
 
-const App = ({ page }) => {
-  console.log(page);
+const App = () => {
   return (
     <Router history={history}>
       <Routes>
