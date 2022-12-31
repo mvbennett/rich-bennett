@@ -3,9 +3,12 @@ import React from "react";
 const ProductionCard = ({ production }) => {
   return (
     <div className="production-card">
-      <a href={production.link} target="_blank" rel="noreferrer">
-        <img src={production.img} alt={production.title} className="album-cover" />
-      </a>
+      {production.player ? production.player
+        : (
+          <a href={production.link} target="_blank" rel="noreferrer">
+            <img src={production.img} alt={production.title} className="album-cover" />
+          </a>
+        )}
       <a href={production.link} target="_blank" rel="noreferrer">
         <h3 className="production-title">
           {production.title}

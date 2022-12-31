@@ -3,17 +3,29 @@ import ProjectCard from "./ProjectCard";
 import Navbar from "./Navbar";
 
 const Projects = () => {
-  const project = {
-    img: '',
-    title: 'Music for Underwater Supermarkets',
-    link: '#'
-  };
+  const projectsList = [
+    {
+      img: '../assets/images/underwater_supermarkets.jpg',
+      title: 'Music for Underwater Supermarkets',
+      link: '#'
+    },
+    {
+      img: '../assets/images/spacetronic_lunchbox.jpg',
+      title: 'Spacetronic Lunchbox',
+      link: '#'
+    }
+  ];
+  const projects = projectsList.map((project) => {
+    return <ProjectCard project={project} />;
+  });
   return (
     <div>
       <Navbar page="secondary" />
-      <div className="projects container">
+      <div className="container">
         <h2>Projects</h2>
-        <ProjectCard project={project} />
+        <div className="projects">
+          {projects}
+        </div>
       </div>
     </div>
   );

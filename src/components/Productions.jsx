@@ -24,6 +24,7 @@ const Productions = () => {
       artist: 'Hologram Teen',
       img: '../assets/images/between_the_funk.jpg',
       link: '',
+      player: <iframe title="Between the Funk and the Fear" style={{ border: 0, width: '300px', height: '300px' }} src="https://bandcamp.com/EmbeddedPlayer/album=1108169207/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://hologramteen.bandcamp.com/album/between-the-funk-and-the-fear">Between the Funk and the Fear by Hologram Teen</a></iframe>,
       icons: [
         ICONS.produce
       ]
@@ -33,6 +34,19 @@ const Productions = () => {
       artist: 'Limoncello',
       img: '../assets/images/pink_sand.jpg',
       link: '',
+      player: false,
+      icons: [
+        ICONS.compose,
+        ICONS.produce,
+        ICONS.guitar
+      ]
+    },
+    {
+      title: 'Musica Aqui/Con Tu Amor',
+      artist: "Limoncello",
+      img: '../assets/images/musica_aqui.jpg',
+      link: '',
+      player: <iframe title="Musica Aqui/Con Tu Amor" style={{ border: 0, width: '300px', height: '300px' }} src="https://bandcamp.com/EmbeddedPlayer/album=242006576/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://limoncelloband.bandcamp.com/album/musica-aqui-con-tu-amor">Musica Aqui/Con Tu Amor by Limoncello</a></iframe>,
       icons: [
         ICONS.compose,
         ICONS.produce,
@@ -47,7 +61,7 @@ const Productions = () => {
     <div>
       <Navbar page="secondary" />
       <div className="productions container">
-        <h2>Productions</h2>
+        <h2>Recording, Producing, Mixing</h2>
         {productions}
       </div>
     </div>
