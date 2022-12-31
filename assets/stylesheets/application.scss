@@ -1,11 +1,13 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-@import './components/navbar.scss';
+@import './components/navbar';
+@import './components/latest';
 @import './config/fonts';
 
 
 body {
   font-family: $body-font;
   background-color: #F0F9FD;
+  color: #004B58;
 }
 
 #root > div {
