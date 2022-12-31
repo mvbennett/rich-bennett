@@ -1,20 +1,18 @@
 import React from "react";
 
-const ProductionCard = (
-  {
-    img, title, link, icons
-  }
-) => {
+const ProductionCard = ({ production }) => {
   return (
     <div>
-      <img src={img} alt={title} className="album-cover" />
-      <a href={link}>
+      <img src={production.img} alt={production.title} className="album-cover" />
+      <a href={production.link}>
         <h3>
-          {title}
+          {production.title}
+          -
+          {production.artist}
         </h3>
       </a>
       <div className="production-icons">
-        {icons === undefined ? <div /> : icons.forEach((icon) => {
+        {production.icons === undefined ? <div /> : production.icons.forEach((icon) => {
           <img src={icon.img} alt={icon.name} />;
         })}
       </div>

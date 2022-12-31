@@ -2,16 +2,16 @@
 
 // Configuration Partials
 @import './config/fonts';
+@import './config/colors';
 
 // Component Partials
 @import './components/navbar';
 @import './components/latest';
 
-
 body {
   font-family: $body-font;
-  background-color: #F0F9FD;
-  color: #004B58;
+  background-color: $background-color;
+  color: $font-color;
 }
 
 #root > div {
