@@ -1,5 +1,6 @@
 .bio-card {
   display: flex;
+  gap: 16px;
 }
 
 .bio-pic {
@@ -8,4 +9,10 @@
 
 .bio-info {
   flex-grow: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .bio-card {
+    flex-direction: column;
+  }
 }

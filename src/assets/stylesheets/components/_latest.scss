@@ -9,3 +9,13 @@
 .latest-post-content {
   margin-bottom: 16px;
 }
+
+@media screen and (max-width: 800px) {
+  .latest-post {
+    width: 100%;
+  }
+
+  .latest-post img {
+    max-width: 100%;
+  }
+}
