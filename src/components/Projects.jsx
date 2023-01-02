@@ -5,17 +5,17 @@ import Navbar from "./Navbar";
 const Projects = () => {
   const projectsList = [
     {
-      img: '../src/assets/images/underwater_supermarkets.jpg',
+      img: 'src/assets/images/underwater_supermarkets.jpg',
       title: 'Music for Underwater Supermarkets',
       link: '#'
     },
     {
-      img: '../src/assets/images/spacetronic_lunchbox.jpg',
+      img: 'src/assets/images/spacetronic_lunchbox.jpg',
       title: 'Spacetronic Lunchbox',
       link: '#'
     },
     {
-      img: '../src/assets/images/italian_soda.jpg',
+      img: 'src/assets/images/italian_soda.jpg',
       title: 'Italian Soda',
       link: '#'
     }
