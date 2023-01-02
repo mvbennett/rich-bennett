@@ -23,8 +23,7 @@ const Productions = () => {
       title: 'Between the Funk and the Fear',
       artist: 'Hologram Teen',
       img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639439/rich/between_the_funk_n5vso7.jpg',
-      link: '',
-      player: <iframe title="Between the Funk and the Fear" style={{ border: 0, width: '300px', height: '300px' }} src="https://bandcamp.com/EmbeddedPlayer/album=1108169207/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://hologramteen.bandcamp.com/album/between-the-funk-and-the-fear">Between the Funk and the Fear by Hologram Teen</a></iframe>,
+      link: 'https://open.spotify.com/album/0b2kXupVrhddF7wMPZwl63?si=jxb98IRcTY6pTBG12BCUvA',
       icons: [
         ICONS.produce
       ]
@@ -33,8 +32,7 @@ const Productions = () => {
       title: 'Pink Sand',
       artist: 'Limoncello',
       img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639437/rich/pink_sand_cj5pdb.jpg',
-      link: '',
-      player: false,
+      link: 'https://open.spotify.com/album/34va1Mi6xrlVYjbGw0eNkF?si=k492TVTaRkiju1wj0iog9Q',
       icons: [
         ICONS.compose,
         ICONS.produce,
@@ -45,8 +43,7 @@ const Productions = () => {
       title: 'Musica Aqui/Con Tu Amor',
       artist: "Limoncello",
       img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639351/rich/musica_aqui_uursp6.jpg',
-      link: '',
-      player: <iframe title="Musica Aqui/Con Tu Amor" style={{ border: 0, width: '300px', height: '300px' }} src="https://bandcamp.com/EmbeddedPlayer/album=242006576/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://limoncelloband.bandcamp.com/album/musica-aqui-con-tu-amor">Musica Aqui/Con Tu Amor by Limoncello</a></iframe>,
+      link: 'https://open.spotify.com/album/4UT873Eh7d1fiOZuFwrmmv?si=fk5XV8mrTTmQdbaDbhTwRQ',
       icons: [
         ICONS.compose,
         ICONS.produce,
