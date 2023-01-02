@@ -12,7 +12,7 @@ const Navbar = ({ page }) => {
       <ul className={`${page}-nav-links`}>
         <li className="nav-link">
           <Link to="/projects" relative="path">
-            Composition
+            Projects
           </Link>
         </li>
         <li className="nav-link">
@@ -21,8 +21,8 @@ const Navbar = ({ page }) => {
           </Link>
         </li>
         <li className="nav-link">
-          <Link to="/productions" relative="path">
-            Mixing
+          <Link to="/about" relative="path">
+            About
           </Link>
         </li>
         {/* <li className="nav-link">

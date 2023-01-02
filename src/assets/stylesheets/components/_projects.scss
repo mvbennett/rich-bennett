@@ -1,6 +1,7 @@
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 16px;
 }
 
 .project-card {
@@ -21,4 +22,16 @@
 .project-title {
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
