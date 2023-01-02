@@ -4,15 +4,15 @@ import Navbar from "./Navbar";
 
 const ICONS = {
   compose: {
-    img: 'src/assets/icons/compose.png',
+    img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639353/rich/compose_oi0ztl.png',
     name: 'Composer'
   },
   produce: {
-    img: 'src/assets/icons/produce.png',
+    img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639441/rich/produce_zehr3w.png',
     name: 'Producer'
   },
   guitar: {
-    img: 'src/assets/icons/guitar.png',
+    img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639438/rich/guitar_nzlgek.png',
     name: 'Musician'
   }
 };
@@ -22,7 +22,7 @@ const Productions = () => {
     {
       title: 'Between the Funk and the Fear',
       artist: 'Hologram Teen',
-      img: 'src/assets/images/between_the_funk.jpg',
+      img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639439/rich/between_the_funk_n5vso7.jpg',
       link: '',
       player: <iframe title="Between the Funk and the Fear" style={{ border: 0, width: '300px', height: '300px' }} src="https://bandcamp.com/EmbeddedPlayer/album=1108169207/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://hologramteen.bandcamp.com/album/between-the-funk-and-the-fear">Between the Funk and the Fear by Hologram Teen</a></iframe>,
       icons: [
@@ -32,7 +32,7 @@ const Productions = () => {
     {
       title: 'Pink Sand',
       artist: 'Limoncello',
-      img: 'src/assets/images/pink_sand.jpg',
+      img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639437/rich/pink_sand_cj5pdb.jpg',
       link: '',
       player: false,
       icons: [
@@ -44,7 +44,7 @@ const Productions = () => {
     {
       title: 'Musica Aqui/Con Tu Amor',
       artist: "Limoncello",
-      img: 'src/assets/images/musica_aqui.jpg',
+      img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639351/rich/musica_aqui_uursp6.jpg',
       link: '',
       player: <iframe title="Musica Aqui/Con Tu Amor" style={{ border: 0, width: '300px', height: '300px' }} src="https://bandcamp.com/EmbeddedPlayer/album=242006576/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://limoncelloband.bandcamp.com/album/musica-aqui-con-tu-amor">Musica Aqui/Con Tu Amor by Limoncello</a></iframe>,
       icons: [
