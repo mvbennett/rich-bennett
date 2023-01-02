@@ -25,11 +25,11 @@ const Navbar = ({ page }) => {
             Mixing
           </Link>
         </li>
-        <li className="nav-link">
+        {/* <li className="nav-link">
           <Link to="/projects" relative="path">
             Guitar
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
