@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import underwaterSuper from '../assets/images/underwater_supermarkets.jpg';
 import spacetronic from '../assets/images/spacetronic_lunchbox.jpg';
 import italianSoda from '../assets/images/italian_soda.jpg';
-import pinkSand from '../assets/icons/pink_sand.jpg';
+import pinkSand from '../assets/images/pink_sand.jpg';
 import musicaAqui from '../assets/images/musica_aqui.jpg';
 
 const Projects = () => {
