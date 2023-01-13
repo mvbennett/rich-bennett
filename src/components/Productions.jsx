@@ -2,18 +2,25 @@ import React from "react";
 import ProductionCard from "./ProductionCard";
 import Navbar from "./Navbar";
 
+import compose from '../assets/icons/compose.png';
+import produce from '../assets/icons/produce.png';
+import guitar from '../assets/icons/guitar.png';
+
 const ICONS = {
   compose: {
-    img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639353/rich/compose_oi0ztl.png',
-    name: 'Composer'
+    // img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639353/rich/compose_oi0ztl.png',
+    name: 'Composer',
+    img: compose
   },
   produce: {
-    img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639441/rich/produce_zehr3w.png',
-    name: 'Producer'
+    // img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639441/rich/produce_zehr3w.png',
+    name: 'Producer',
+    img: produce
   },
   guitar: {
-    img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639438/rich/guitar_nzlgek.png',
-    name: 'Musician'
+    // img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639438/rich/guitar_nzlgek.png',
+    name: 'Musician',
+    img: guitar
   }
 };
 
