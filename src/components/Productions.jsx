@@ -7,6 +7,9 @@ import produce from '../assets/icons/produce.png';
 import guitar from '../assets/icons/guitar.png';
 
 import betweenTheFunk from '../assets/images/between_the_funk.jpg';
+import memoryBox from '../assets/images/memory_box.jpg';
+import fakeLove from '../assets/images/fake_love.jpg';
+import pizzaConspiracy from '../assets/images/pizza_conspiracy.jpg';
 
 const ICONS = {
   compose: {
@@ -29,34 +32,39 @@ const ICONS = {
 const Productions = () => {
   const productionList = [
     {
+      title: 'Memory Box',
+      artist: 'Rodney Cromwell',
+      img: memoryBox,
+      link: 'https://open.spotify.com/album/5undXq2henqQw2lBmqcEM8',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Nong Voru / Fake Love',
+      artist: 'Alfred Kpebesaane and Brittany Anjou',
+      img: fakeLove,
+      link: 'https://open.spotify.com/album/50n3k94DN57jjmCKWPinYd',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Pizza Conspiracy',
+      artist: 'Hologram Teen',
+      img: pizzaConspiracy,
+      link: 'https://open.spotify.com/album/0yWP0bki3piEYrWzRZH369',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
       title: 'Between the Funk and the Fear',
       artist: 'Hologram Teen',
       img: betweenTheFunk,
       link: 'https://open.spotify.com/album/0b2kXupVrhddF7wMPZwl63?si=jxb98IRcTY6pTBG12BCUvA',
       icons: [
         ICONS.produce
-      ]
-    },
-    {
-      title: 'Pink Sand',
-      artist: 'Limoncello',
-      img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639437/rich/pink_sand_cj5pdb.jpg',
-      link: 'https://open.spotify.com/album/34va1Mi6xrlVYjbGw0eNkF?si=k492TVTaRkiju1wj0iog9Q',
-      icons: [
-        ICONS.compose,
-        ICONS.produce,
-        ICONS.guitar
-      ]
-    },
-    {
-      title: 'Musica Aqui/Con Tu Amor',
-      artist: "Limoncello",
-      img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639351/rich/musica_aqui_uursp6.jpg',
-      link: 'https://open.spotify.com/album/4UT873Eh7d1fiOZuFwrmmv?si=fk5XV8mrTTmQdbaDbhTwRQ',
-      icons: [
-        ICONS.compose,
-        ICONS.produce,
-        ICONS.guitar
       ]
     }
   ];
