@@ -6,6 +6,8 @@ import compose from '../assets/icons/compose.png';
 import produce from '../assets/icons/produce.png';
 import guitar from '../assets/icons/guitar.png';
 
+import betweenTheFunk from '../assets/images/between_the_funk.jpg';
+
 const ICONS = {
   compose: {
     // img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639353/rich/compose_oi0ztl.png',
@@ -29,7 +31,7 @@ const Productions = () => {
     {
       title: 'Between the Funk and the Fear',
       artist: 'Hologram Teen',
-      img: 'https://res.cloudinary.com/dduinomn4/image/upload/v1672639439/rich/between_the_funk_n5vso7.jpg',
+      img: betweenTheFunk,
       link: 'https://open.spotify.com/album/0b2kXupVrhddF7wMPZwl63?si=jxb98IRcTY6pTBG12BCUvA',
       icons: [
         ICONS.produce
