@@ -7,6 +7,9 @@ import spacetronic from '../assets/images/spacetronic_lunchbox.jpg';
 import italianSoda from '../assets/images/italian_soda.jpg';
 import pinkSand from '../assets/images/pink_sand.jpg';
 import musicaAqui from '../assets/images/musica_aqui.jpg';
+import dibenedetto from '../assets/images/dibenedetto.jpg';
+import soundParadise from '../assets/images/sound_paradise.jpg';
+import outerSunset from '../assets/images/outer_sunset.jpg';
 
 const Projects = () => {
   const projectsList = [
@@ -34,6 +37,21 @@ const Projects = () => {
       img: pinkSand,
       title: "Pink Sand",
       link: 'https://open.spotify.com/album/34va1Mi6xrlVYjbGw0eNkF?si=k492TVTaRkiju1wj0iog9Q'
+    },
+    {
+      img: dibenedetto,
+      title: 'DiBenedetto',
+      link: 'https://open.spotify.com/track/1g5deMU74SVhCSmWl0QjsR?autoplay=true'
+    },
+    {
+      img: soundParadise,
+      title: 'Transpacific Sound Paradise',
+      link: 'https://open.spotify.com/album/2A5YeZstkLJdjFqMyAggYH?at=10&uo=4'
+    },
+    {
+      img: outerSunset,
+      title: 'Outer Sunset',
+      link: 'https://open.spotify.com/album/6sf4AszxS6NIV23faj2FSp'
     }
   ];
   const projects = projectsList.map((project) => {
