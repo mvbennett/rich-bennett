@@ -25,11 +25,6 @@ const Navbar = ({ page }) => {
             About
           </Link>
         </li>
-        {/* <li className="nav-link">
-          <Link to="/projects" relative="path">
-            Guitar
-          </Link>
-        </li> */}
       </ul>
     </div>
   );
