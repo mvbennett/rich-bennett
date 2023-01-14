@@ -10,6 +10,18 @@ import betweenTheFunk from '../assets/images/between_the_funk.jpg';
 import memoryBox from '../assets/images/memory_box.jpg';
 import fakeLove from '../assets/images/fake_love.jpg';
 import pizzaConspiracy from '../assets/images/pizza_conspiracy.jpg';
+import writtenStars from '../assets/images/written_stars.jpg';
+import lastAmerican from '../assets/images/last_american.jpg';
+import noMansLand from '../assets/images/no_mans_land.jpg';
+import mustDance from '../assets/images/must_dance.jpg';
+import comrades from '../assets/images/comrades.jpg';
+import unhinged from '../assets/images/unhinged.jpg';
+import knownObjects from '../assets/images/known_objects.jpg';
+import animals from '../assets/images/animals.jpg';
+import dottedLines from '../assets/images/dotted_lines.jpg';
+import rubberPoultry from '../assets/images/rubber_poultry.jpg';
+import onlyDaughter from '../assets/images/only_daughter.jpg';
+import viewfinder from '../assets/images/viewfinder.jpg';
 
 const ICONS = {
   compose: {
@@ -59,10 +71,112 @@ const Productions = () => {
       ]
     },
     {
+      title: 'Tiny Language',
+      artist: 'Written in Stars',
+      img: writtenStars,
+      link: 'https://open.spotify.com/album/4Bl2sZmRKuLHR4RWrA0QOe',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'The Last American',
+      artist: 'The President Lincoln',
+      img: lastAmerican,
+      link: 'https://open.spotify.com/artist/4QLj9lFZZHl8MoBHUBl63G',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: "No Man's Land",
+      artist: 'Karen Dahlstrom',
+      img: noMansLand,
+      link: 'https://open.spotify.com/album/5rdxNUItJDMvRgKdwh52DT',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'If U Must Dance',
+      artist: 'Sinosa',
+      img: mustDance,
+      link: 'https://open.spotify.com/album/2yrkWy7W8NZgyJ94IBdRhH',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
       title: 'Between the Funk and the Fear',
       artist: 'Hologram Teen',
       img: betweenTheFunk,
       link: 'https://open.spotify.com/album/0b2kXupVrhddF7wMPZwl63?si=jxb98IRcTY6pTBG12BCUvA',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Comrades',
+      artist: 'Rodney Cromwell',
+      img: comrades,
+      link: 'https://open.spotify.com/album/7fr75k16inE48Vw0Lr3kYa',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Unhinged',
+      artist: 'Elijah Shiffer and The Robber Crabs',
+      img: unhinged,
+      link: 'https://elijahshiffer.bandcamp.com/album/unhinged',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Known Objects',
+      artist: 'Rebecca Pronsky',
+      img: knownObjects,
+      link: 'https://open.spotify.com/album/1ekf1fvOKJGFs14cHuFHfo',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Animals',
+      artist: 'Albis',
+      img: animals,
+      link: 'https://open.spotify.com/album/0PnhlX8IoxTFuhH7elH46v',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'All These Dotted Lines',
+      artist: 'Beverly Strokes',
+      img: dottedLines,
+      link: 'https://open.spotify.com/album/0TWtAD4faheODQdNQLf1ra'
+    },
+    {
+      title: 'Rubber Poultry',
+      artist: 'The New York Fowl Harmonic',
+      img: rubberPoultry,
+      link: 'https://thenewyorkfowlharmonic.bandcamp.com/album/rubber-poultry'
+    },
+    {
+      title: 'Only Daughter',
+      artist: 'Rebecca Pronsky',
+      img: onlyDaughter,
+      link: 'https://open.spotify.com/artist/1F05qDisbC9yIwLOxP1PPk',
+      icons: [
+        ICONS.produce
+      ]
+    },
+    {
+      title: 'Viewfinder',
+      artist: 'Rebecca Pronsky',
+      img: viewfinder,
+      link: 'https://open.spotify.com/album/3BXcgIaH2SqYmVaxnByjbU',
       icons: [
         ICONS.produce
       ]

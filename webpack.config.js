@@ -29,7 +29,18 @@ module.exports = {
         test: /\.html$/,
         use: 'html-loader'
       },
-    ]
+      {
+        test: /\.(jpe?g|png|gif|svg)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
+    ],
   },
   resolve: {
     extensions: [ '.js', '.jsx' ]
