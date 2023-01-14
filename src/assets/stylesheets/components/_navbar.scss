@@ -15,6 +15,10 @@
   color: #004B58;
 }
 
+.nav-link > a:hover {
+  text-decoration: underline;
+}
+
 .home-nav-links {
   display: flex;
   align-items: center;
