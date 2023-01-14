@@ -7,7 +7,7 @@ const Latest = () => {
       <Navbar page="home" />
       <div className="container">
         <div className="latest-post">
-          <img src="https://res.cloudinary.com/dduinomn4/image/upload/v1672639348/rich/underwatervinyl_zqt2zs.png" alt="Music for Underwater Supermarkets on Vinyl" />
+          <img className="latest-img" src="https://res.cloudinary.com/dduinomn4/image/upload/v1672639348/rich/underwatervinyl_zqt2zs.png" alt="Music for Underwater Supermarkets on Vinyl" />
           <div className="latest-post-content">
             <h3>Music for Underwater Supermarkets now on vinyl</h3>
             <p>

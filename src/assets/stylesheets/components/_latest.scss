@@ -10,12 +10,16 @@
   margin-bottom: 16px;
 }
 
+.latest-img {
+  width: 500px;
+}
+
 @media screen and (max-width: 800px) {
   .latest-post {
     width: 100%;
   }
 
-  .latest-post img {
+  .latest-img {
     max-width: 100%;
   }
 }
